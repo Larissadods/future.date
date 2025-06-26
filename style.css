@@ -1,0 +1,16 @@
+body {
+    background-image: url(fundo.jpg);
+    background-size: 100%;
+}
+
+.botoes .inicio {
+    background-color: #145da0;
+    margin: 0 0.5rem;
+    width: 50px;
+    text-align: center;
+}
+
+.botoes .inicio a {
+    text-decoration: none;
+    color: white;
+}
