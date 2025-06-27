@@ -1,16 +1,56 @@
 body {
     background-image: url(fundo.jpg);
     background-size: 100%;
+    display: flex;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    padding: 5%;
+}
+
+.botoes {
+    display: flex;
+    margin-left: 37%;
+    justify-content: center;
+    font-size: 25px;
+    width: 150px
 }
 
 .botoes .inicio {
     background-color: #145da0;
     margin: 0 0.5rem;
-    width: 50px;
     text-align: center;
+    border-radius: 5px;
 }
 
 .botoes .inicio a {
     text-decoration: none;
     color: white;
 }
+
+.botoes .ferramentas {
+    background-color: #145da0;
+    margin: 0 0.5rem;
+    text-align: center;
+}
+
+.botoes .ferramentas a {
+    text-decoration: none;
+    color: white;
+}
+
+.botoes .atividades {
+    background-color: #145da0;
+    margin: 0 0.5rem;
+    text-align: center;
+}
+
+.botoes .atividades a {
+    text-decoration: none;
+    color: white;
+}
+
+
