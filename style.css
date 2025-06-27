@@ -8,22 +8,21 @@ header {
     background-color: white;
     display: flex;
     width: 100%;
-    padding: 5%;
 }
 
 .botoes {
     display: flex;
-    margin-left: 37%;
+    margin-left: 20%;
     justify-content: center;
-    font-size: 25px;
-    width: 150px
+    font-size: 35px;
 }
 
 .botoes .inicio {
+    width: 200px;
     background-color: #145da0;
-    margin: 0 0.5rem;
     text-align: center;
     border-radius: 5px;
+    margin: 0 0.5em;
 }
 
 .botoes .inicio a {
@@ -32,9 +31,11 @@ header {
 }
 
 .botoes .ferramentas {
+    width: 200px;
     background-color: #145da0;
-    margin: 0 0.5rem;
+    margin: 0 0.5em;
     text-align: center;
+    border-radius: 5px;
 }
 
 .botoes .ferramentas a {
@@ -43,9 +44,11 @@ header {
 }
 
 .botoes .atividades {
+    width: 200px;
     background-color: #145da0;
-    margin: 0 0.5rem;
+    margin: 0 0.5em;
     text-align: center;
+    border-radius: 5px;
 }
 
 .botoes .atividades a {
